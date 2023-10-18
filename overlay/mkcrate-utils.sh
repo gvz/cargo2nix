@@ -345,7 +345,6 @@ reducePackageToml () {
                 .replace,
                 .patch,
                 .dependencies,
-                ."build-dependencies",
                 .["dev-dependencies"],
                 .target)
             + '"$manifestPatch" \
